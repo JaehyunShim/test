@@ -10,8 +10,8 @@ on:
 
 jobs:
   doxygen:
+    runs-on: ubuntu-20.04
     steps:
-      runs-on: ubuntu-20.04
       - uses: mattnotmitt/doxygen-action@v1
         with:
           working-directory: 'submodule/'
