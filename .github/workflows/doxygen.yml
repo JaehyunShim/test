@@ -10,8 +10,8 @@ on:
 
 jobs:
   doxygen:
-  - uses: mattnotmitt/doxygen-action@v1
+    uses: mattnotmitt/doxygen-action@v1
     with:
-        working-directory: 'submodule/'
-        # doxyfile-path: './Doxyfile'
-        doxyfile-path: 'docs/Doxygen'
+      working-directory: 'submodule/'
+      # doxyfile-path: './Doxyfile'
+      doxyfile-path: 'docs/Doxygen'
